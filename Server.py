@@ -29,7 +29,7 @@ def predict_var(str):
 
 app = Flask(__name__)
 
-@app.route("//")
+@app.route("/")
 def home():
     # wine_var = df2['variety'].values
     # return render_template('web.html', locations=wine_var)
